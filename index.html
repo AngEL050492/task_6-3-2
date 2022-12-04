@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <fieldset class="food">
+            <legend>Выберите товары:</legend>
+            <div class="choice">
+                <input type="checkbox" name="food" id="pie" value="120">
+                <label for="pie">Пирог с яблоком - 120 р.</label>
+            </div>
+            <div class="choice">
+                <input type="checkbox" name="food" id="cake" value="80">
+                <label for="cake">Шоколадный кекс - 80 р.</label>
+            </div>
+            <div class="choice">
+                <input type="checkbox" name="food" id="cheesecake" value="180">
+                <label for="cheesecake">Чизкейк - 180 р.</label>
+            </div>
+            <button class="btn">Выбрать</button>
+           
+        </fieldset>  
+     <p>Общая стоимость: <span class="result"></span></p>
+    <script src="main.js"></script>
+</body>
+</html>
