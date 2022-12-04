@@ -8,6 +8,10 @@ for (const radioButton of radioButtons){
         total = total + parseInt(radioButton.value);
         }
 }
-    resultElement.textContent = `${total} р.`;
+if(total.lenght != 0){
+    resultElement.textContent = `${total} р.`;}
+    else{
+        resultElement.textContent = `0 р.`;
+    }
 
 })
